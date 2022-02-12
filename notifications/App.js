@@ -1,13 +1,11 @@
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>kj</Text>
-      </View>
-    </SafeAreaView>
+    <View style={{flex: 1, backgroundColor: 'green', height: 300, width: 300}}>
+      <Text>kj</Text>
+    </View>
   );
 };
 
