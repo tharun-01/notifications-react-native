@@ -1,24 +1,14 @@
-
 import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
+import {SafeAreaView, Text, View} from 'react-native';
 
-  StyleSheet,
-
-} from 'react-native';
-
-
-
-const App  = () => {
- 
-
+const App = () => {
   return (
-    <SafeAreaView style={backgroundStyle}>
-      
+    <SafeAreaView>
+      <View>
+        <Text>kj</Text>
+      </View>
     </SafeAreaView>
   );
 };
-
 
 export default App;
